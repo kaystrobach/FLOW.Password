@@ -1,0 +1,43 @@
+KayStrobach:
+  Password:
+    PasswordValidator:
+      DeniedPasswords:
+        Blacklist:
+          Equals:
+            "passwort": true
+            "hallo123": true
+            "schalke04": true
+            "passwort": true
+            "passwort1": true
+            "arschloch": true
+            "password": true
+            "12345678": true
+            "123456789": true
+            "football": true
+            "1234567890": true
+            "princess": true
+            "qwertyuiop": true
+            "passw0rd": true
+            "starwars": true
+            "1234567": true
+            "baseball": true
+            "1qaz2wsx": true
+            "letmein": true
+            "welcome": true
+          Contains:
+            "hallo": true
+            "qwertz": true
+            "schatz": true
+            "hallo1": true
+            "ficken": true
+            "123456": true
+            "qwerty": true
+            "12345": true
+            "1234": true
+            "abc123": true
+            "111111": true
+            "dragon": true
+            "master": true
+            "monkey": true
+            "login": true
+            "solo": true
