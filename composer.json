@@ -5,6 +5,7 @@
         "typo3/flow": "~3.3",
         "typo3/party": "*"
     },
+    "license": "MIT",
     "name": "kaystrobach/password",
     "autoload": {
         "psr-0": {
