@@ -2,14 +2,14 @@
 
 namespace KayStrobach\Password\Validation\Validator;
 
-use TYPO3\Flow\Error\Error;
-use TYPO3\Flow\Validation\Exception\InvalidValidationOptionsException;
-use TYPO3\Flow\Validation\Validator\AbstractValidator;
+use Neos\Flow\Error\Error;
+use Neos\Flow\Validation\Exception\InvalidValidationOptionsException;
+use Neos\Flow\Validation\Validator\AbstractValidator;
 use TYPO3\Party\Domain\Model\AbstractParty;
 use TYPO3\Party\Domain\Model\PersonName;
 use TYPO3\Party\Domain\Service\PartyService;
 
-use TYPO3\Flow\Annotations as Flow;
+use Neos\Flow\Annotations as Flow;
 
 
 class PasswordValidator extends AbstractValidator
@@ -31,7 +31,7 @@ class PasswordValidator extends AbstractValidator
 
     /**
      * @Flow\Inject
-     * @var \TYPO3\Flow\Security\Authentication\AuthenticationManagerInterface
+     * @var \Neos\Flow\Security\Authentication\AuthenticationManagerInterface
      */
     protected $authenticationManager;
 
