@@ -5,9 +5,9 @@ namespace KayStrobach\Password\Validation\Validator;
 use Neos\Error\Messages\Error;
 use Neos\Flow\Validation\Exception\InvalidValidationOptionsException;
 use Neos\Flow\Validation\Validator\AbstractValidator;
-use TYPO3\Party\Domain\Model\AbstractParty;
-use TYPO3\Party\Domain\Model\PersonName;
-use TYPO3\Party\Domain\Service\PartyService;
+use Neos\Party\Domain\Model\AbstractParty;
+use Neos\Party\Domain\Model\PersonName;
+use Neos\Party\Domain\Service\PartyService;
 
 use Neos\Flow\Annotations as Flow;
 
