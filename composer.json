@@ -9,7 +9,7 @@
     "name": "kaystrobach/password",
     "autoload": {
         "psr-4": {
-            "KayStrobach\\Password": "Classes/"
+            "KayStrobach\\Password\\": "Classes/"
         }
     },
     "extra": {
