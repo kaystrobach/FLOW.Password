@@ -2,7 +2,7 @@
 
 namespace KayStrobach\Password\Validation\Validator;
 
-use Neos\Flow\Error\Error;
+use Neos\Error\Messages\Error;
 use Neos\Flow\Validation\Exception\InvalidValidationOptionsException;
 use Neos\Flow\Validation\Validator\AbstractValidator;
 use TYPO3\Party\Domain\Model\AbstractParty;
