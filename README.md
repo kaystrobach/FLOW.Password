@@ -1,7 +1,7 @@
 # FLOW.Password
 
-Password Validation Package for version 3.x of the `neos/flow` framework.
-Update for flow 4.x is planned.
+Password Validation Package for version 4.x of the `neos/flow` framework.
+Update for flow 5.x is planned.
 
 ## Inclusion in Template
 
