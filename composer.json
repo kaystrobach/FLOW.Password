@@ -2,7 +2,7 @@
     "description": "Add description here",
     "type": "neos-package",
     "require": {
-        "typo3/flow": "~4.3",
+        "typo3/flow": "~4.3 || ~5.0",
         "typo3/party": "*"
     },
     "license": "MIT",
