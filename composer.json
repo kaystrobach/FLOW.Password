@@ -2,7 +2,7 @@
     "description": "Add description here",
     "type": "neos-package",
     "require": {
-        "neos/flow": "~4.3 || ~5.0 || ~6.0",
+        "neos/flow": "~4.3 || ~5.0 || ~6.0 || ~7.0",
         "neos/party": "*"
     },
     "license": "MIT",
